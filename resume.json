@@ -1,0 +1,92 @@
+{
+	"basics": {
+		"name": "Mathias Neyer",
+		"location": {
+			"adress": "Dorfstraße 36 Top 3",
+			"city": "Ludesch",
+			"postalCode": "6713"
+		},
+		"mail": "mathias.neyer@live.com",
+		"phone": "+43 650 2505 856",
+		"stackoverflow": "https://stackoverflow.com/users/968671/mat"
+		"birthday": 485848800,
+		"nationality": "AT"
+	},
+	"languages": [
+		"de",
+		"en"
+	],
+	"codingLanguages": [
+		"C#",
+		"SQL",
+		"C/C++",
+		"VBA",
+		"VB.NET",
+		"XAML",
+		"HTML",
+		"Powershell",
+		"TypeScript"
+	],
+	"frameworks": ["ASP.NET Core", "Angular", "WPF", "Win Forms"],
+	"work expierence": [{
+			"from": 2015,
+			"to": null,
+			"company": "Gantner Electronic GmbH",
+			"position": "Software Developer",
+			"city": "Schruns (since 2019 Nüziders)"
+		}, {
+			"from": 2007,
+			"to": 2015,
+			"position": "Software Developer",
+			"company": "Zumtobel Lighting GmbH"
+		}
+	],
+	"community service": {
+		"year": 2007,
+		"organization": "Rotes Kreuz Bludenz"
+	},
+	"education": [{
+			"from": 2000,
+			"to": 2006,
+			"school": "HTL Dornbirn"
+		}, {
+			"from": 1996,
+			"to": 2000,
+			"school": "Hauptschule Bürs"
+		}, {
+			"from": 1992,
+			"to": 1996,
+			"school": "Volksschule Bürs"
+		}
+
+	],
+	"internships": [{
+			"year": 2000,
+			"company": "Gassner Stahlbau Gmbh",
+			"position": "assembling"
+		}, {
+			"years": [
+				2001,
+				2002
+			],
+			"company": "Zeck Kies GmbH",
+			"position": "office"
+		}, {
+			"years": [
+				2003,
+				2004
+			],
+			"company": "Suchard GmbH",
+			"position": "warehouse"
+		}, {
+			"year": 2005,
+			"company": "Kober GmbH",
+			"position": "self-employed distributor",
+			"comment": "going from door to door for the Red Cross in Germany."
+		}, {
+			"year": 2006,
+			"company": "MSE Personalagentur",
+			"position": "laborer"
+		}
+	]
+}
