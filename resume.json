@@ -25,15 +25,23 @@
 		"XAML",
 		"HTML",
 		"Powershell",
-		"TypeScript"
+		"TypeScript",
+		"Phyton"
 	],
-	"frameworks": ["ASP.NET Core", "Angular", "WPF", "Win Forms"],
+	"frameworks": [
+		"ASP.NET Core", 
+		"Entity Framework",
+		"AWS",
+		"Docker",
+		"git",
+		"Angular",
+		"WPF",
+		"Win Forms"],
 	"work expierence": [{
 			"from": 2015,
 			"to": null,
 			"company": "Gantner Electronic GmbH",
-			"position": "Software Developer",
-			"city": "Schruns (since 2019 Nüziders)"
+			"position": "Software Developer"
 		}, {
 			"from": 2007,
 			"to": 2015,
