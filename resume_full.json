@@ -13,7 +13,7 @@
     "email": "mathias.neyer@live.com",
     "image": "https://github.com/SuperSludge/resume/blob/main/profil.jpg?raw=true",
     "phone": "+43 650 2505 856",
-    "summary": "I've worked as a software developer for the past 17 years. The technologies have changed over time, and so have I. Starting with classical desktop development, I now focus primarily on back-end development. I’m passionate about learning new technologies and applying them to solve real-world problems.",
+    "summary": "I've worked as a software developer for the past 17 years. The technologies have changed during the years, so have I. Coming from classical desktop development, now I'm more focused on back-end development. I’m passionate about learning new technologies and applying them in real-world projects.",
     "profiles": [
       {
         "username": "Mathias Neyer",
@@ -115,8 +115,11 @@
         "Developing a software for hundreds and thousands of customers.",
         "Transition from a conventional desktop application into cloud.",
         "Contact with customers on 3rd level support.",
-        "Being responsible for the complete software development process."
-      ]
+        "Being responsible for the complete software development process.",
+        "Took parental leave from February 2023 to October 2023.",
+        "Took parental leave from August 2024 to October 2025."
+      ],
+      "name": ""
     },
     {
       "startDate": "2007-11-15",
@@ -242,6 +245,13 @@
   ],
   "interests": [
     {
+      "name": "Family",
+      "keywords": [
+        "2 daughters",
+        "happily ever after :-)"
+      ]
+    },
+    {
       "name": "Music",
       "keywords": [
         "guitar",
@@ -263,14 +273,6 @@
       "name": "Traveling",
       "keywords": [
         "never stop exploring"
-      ]
-    },
-    {
-      "name": "Coding",
-      "keywords": [
-        "Phoniebox",
-        "Raspi",
-        "winds.mobi"
       ]
     }
   ]
