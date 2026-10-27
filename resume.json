@@ -13,7 +13,7 @@
     "email": "mathias.neyer@live.com",
     "image": "https://github.com/SuperSludge/resume/blob/main/profil.jpg?raw=true",
     "phone": "+43 650 2505 856",
-    "summary": "I've worked as a software developer for the past 18 years. The technologies have changed over time, and so have I. I started in classical desktop development and have since expanded into full-stack development, with a strong focus on back-end systems. I’m passionate about learning new technologies and applying them to solve real-world problems",
+    "summary": "I've worked as a software developer for the past 19 years. The technologies have changed over time, and so have I. I started in classical desktop development and have since expanded into full-stack development, with a strong focus on back-end systems. I’m passionate about learning new technologies and applying them to solve real-world problems",
     "profiles": [
       {
         "username": "Mathias Neyer",
@@ -56,6 +56,16 @@
     },
     {
       "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript / Typescript",
+        "Angular"
+      ],
+      "level": "Senior",
+      "name": "Frontend"
+    },
+    {
+      "keywords": [
         "C#",
         "WPF",
         "WinForms"
@@ -84,16 +94,6 @@
     },
     {
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript / Typescript",
-        "Angular"
-      ],
-      "level": "Mid-level",
-      "name": "Frontend"
-    },
-    {
-      "keywords": [
         "git",
         "Jira",
         "Confluence",
@@ -109,7 +109,7 @@
     {
       "startDate": "2015-10-01",
       "company": "Gantner Electronic GmbH",
-      "position": "Software Developer",
+      "position": "Senior Full-Stack Software Engineer | C#/.NET & Angular",
       "location": "Gantner Electronic GmbH Nüziders",
       "highlights": [
         "Developing a software for hundreds and thousands of customers.",
