@@ -51,7 +51,6 @@
         "Websockets",
         "Serverless"
       ],
-      "level": "Senior",
       "name": "Backend"
     },
     {
@@ -61,7 +60,6 @@
         "Javascript / Typescript",
         "Angular"
       ],
-      "level": "Senior",
       "name": "Frontend"
     },
     {
@@ -70,7 +68,6 @@
         "WPF",
         "WinForms"
       ],
-      "level": "Senior",
       "name": "Desktop"
     },
     {
@@ -79,7 +76,6 @@
         "MSSQL",
         "MySQL"
       ],
-      "level": "Senior",
       "name": "Database"
     },
     {
@@ -89,7 +85,6 @@
         "Docker",
         "Azure DevOps Server"
       ],
-      "level": "Mid-level",
       "name": "Devops"
     },
     {
