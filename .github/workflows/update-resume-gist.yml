@@ -46,4 +46,3 @@ jobs:
             --data-binary "@$RUNNER_TEMP/gist-payload.json"
 
           echo "Gist updated successfully."
-```
