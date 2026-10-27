@@ -1,0 +1,49 @@
+name: Update JSON Resume Gist
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - resume.json
+      - .github/workflows/update-resume-gist.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update-gist:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update Gist
+        env:
+          GH_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: 2f71d7b315440f209e7d9eb806278506
+        run: |
+          set -euo pipefail
+
+          # Validate the resume JSON before publishing it.
+          jq empty resume.json
+
+          # Update the existing Gist.
+          jq -n \
+            --rawfile content resume.json \
+            '{files: {"resume.json": {content: $content}}}' \
+            > "$RUNNER_TEMP/gist-payload.json"
+
+          curl --fail-with-body --silent --show-error \
+            --request PATCH \
+            --url "https://api.github.com/gists/$GIST_ID" \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer $GH_TOKEN" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --header "Content-Type: application/json" \
+            --data-binary "@$RUNNER_TEMP/gist-payload.json"
+
+          echo "Gist updated successfully."
+```
